@@ -9,6 +9,7 @@ body {
     height: 500px;
     background-size: cover;
     background-position: right center;
+    padding-top: 1px;
 }
 
 /* hero-content é a classe do texto H1 */
@@ -32,3 +33,13 @@ body {
     padding: 16px;
     border-bottom: 2px solid white;
 }
+.hero nav ul {
+    margin: 50px 50px 0 0;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+}
+    
